@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    background: black;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    background: url('./dictionary.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, .9);
+    max-width: 500px;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.heading {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.input {
+    height: 1.5rem;
+    width: 210px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+.meaning-container {
+    display: none;
+}
+
+p {
+    color: white;
+}
